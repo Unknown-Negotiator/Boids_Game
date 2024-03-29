@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8427103441050660812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8427103441050660802}
+  - component: {fileID: 8427103441050660813}
+  m_Layer: 0
+  m_Name: Blue swarm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8427103441050660802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8427103441050660812}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.747297, y: 2.363163, z: 140.97478}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8427103441050660813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8427103441050660812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecb8ede118348cb4eb35eb526867cec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boidPrefab: {fileID: 4129388913426630992, guid: 8b74c54e30dd40f4d975c3ba9ac6a957,
+    type: 3}
+  rules:
+  - {fileID: 11400000, guid: d043ad781a592b04bb363024d3d655ec, type: 2}
+  - {fileID: 11400000, guid: dda9a4043a6ef724cbd8de925e2608d0, type: 2}
+  - {fileID: 11400000, guid: cc5d55dce28d1ef4b90890e917c0b060, type: 2}
+  - {fileID: 11400000, guid: 2a22b7ca7825f2c4da4bee57f95eeeb5, type: 2}
+  - {fileID: 11400000, guid: 16385a298d5833e41bd854ad036900fc, type: 2}
+  weights:
+  - 2
+  - 0.7
+  - 2.7
+  - 0.1
+  - 500
+  initialSwarmSize: 0
+  operationSpeed: 10.6
+  maxSpeed: 6.8
+  neighbourRadius: 1.5
+  avoidanceRadiusMultiplier: 0.5

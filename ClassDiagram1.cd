@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Loader">
+    <Position X="14" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UI\UI Scripts\Loader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwarmParamsEditor">
+    <Position X="12" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAiAAAAAAACCAAAgAABAQAIAAgBAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\UI\UI Scripts\SwarmParamsEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwarmSizeControl">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAIAAAAAAAAAAAABAAEAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\UI\UI Scripts\SwarmSizeControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_Colliders">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\UI\UI Scripts\UI_Colliders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agent">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAgAACACAAAEABAAAAARAAIAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Main scripts\Agent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Swarm">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAgIAACACAQQAAAAAAAAIAAAAQAAAgAABAAJIAEA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Main scripts\Swarm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnvironmentFilter">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Filter scripts\EnvironmentFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilteredRule">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Filter scripts\FilteredRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LayerFilter">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Filter scripts\LayerFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwarmFilter">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Filter scripts\SwarmFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Alignment">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Rules scripts\Alignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Centralization">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Rules scripts\Centralization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModifiedAvoidance">
+    <Position X="4.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Rules scripts\ModifiedAvoidance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rule">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Rules scripts\Rule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmoothAvoidance">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Rules scripts\SmoothAvoidance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmoothCohesion">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Boids\Scripts\Rules scripts\SmoothCohesion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
